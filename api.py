@@ -11,7 +11,7 @@ async def root():
 
 @app.get("/myname")
 async def root():
-    return {"name": "Francisco Vasquez"}
+    return {"name": "Francisco J. Vasquez"}
 
 @app.get("/sumar")
 async def root(num1: int = 0, num2: int = 0):
